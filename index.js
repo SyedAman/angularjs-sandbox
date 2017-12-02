@@ -6,5 +6,3 @@ messWithAngular.controller('HomeController', [
     $scope.message = 'hello world';
   },
 ]);
-
-console.log('hey');
