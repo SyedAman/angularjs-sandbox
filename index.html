@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="messWithAngular">
   <head>
     <script type="text/javascript" src="https://code.angularjs.org/1.6.7/angular.min.js">
     </script>
@@ -8,9 +8,9 @@
     <title>Angular.js Sandbox</title>
   </head>
 
-  <body ng-app>
+  <body ng-controller="HomeController">
     <div>
-      <h1>Hi</h1>
+      <h1>{{ message }}</h1>
     </div>
   </body>
 </html>
