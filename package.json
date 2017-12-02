@@ -1,3 +1,22 @@
 {
-  "dependencies": {}
+  "dependencies": {},
+  "name": "remind-nash",
+  "description": "remind nashik about things",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyedAman/angularjs-sandbox.git"
+  },
+  "keywords": ["angular", "node", "express", "mongoose", "app"],
+  "author": "Syed Nashik Aman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SyedAman/angularjs-sandbox/issues"
+  },
+  "homepage": "https://github.com/SyedAman/angularjs-sandbox#readme"
 }
