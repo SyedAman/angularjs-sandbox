@@ -11,5 +11,7 @@ RUN yarn && yarn global add http-server
 # run http server
 ENTRYPOINT http-server
 
+VOLUME /workspace
+
 # http server runs on http://localhost:8080
 EXPOSE 8080
